@@ -1,0 +1,30 @@
+* {margin: 0;
+    padding: 0;}
+
+h1 {font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    margin: 25px;}
+
+img {width: 1024px;}
+
+body {text-align: center;}
+
+.conteneur {display: flex;
+    justify-content: center;}
+
+#monslider {
+    width: 1024px;
+    position: relative;}
+
+#avant, #apres {
+    position: absolute;
+    background-color: black;
+    color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    top: 370px;
+    cursor: pointer;}
+
+#avant {left: 2px;}
+
+#apres {right: 2px;}
